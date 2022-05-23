@@ -9,7 +9,6 @@ export function override(resources: AmplifyAuthCognitoStackTemplate) {
         required: false,
       }
       resources.userPool.schema = [
-        ...(resources.userPool.schema as any[]), // Carry over existing attributes (example: email)
         myCustomAttribute,
       ]
 }
