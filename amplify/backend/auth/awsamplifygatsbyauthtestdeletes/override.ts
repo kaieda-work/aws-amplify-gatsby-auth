@@ -11,6 +11,7 @@ export function override(resources: AmplifyAuthCognitoStackTemplate) {
       resources.userPool.schema = [ 
         myCustomAttribute,
       ],
-      resources.userPoolClientWeb.generateSecret = false
+      resources.userPoolClientWeb.generateSecret = false,
+      resources.userPoolClientWeb.clientName = "HelloWorld"
 
 }
