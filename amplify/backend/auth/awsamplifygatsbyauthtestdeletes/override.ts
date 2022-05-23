@@ -8,7 +8,9 @@ export function override(resources: AmplifyAuthCognitoStackTemplate) {
         name: 'my_custom_attribute',
         required: false,
       }
-      resources.userPool.schema = [
+      resources.userPool.schema = [ 
         myCustomAttribute,
-      ]
+      ],
+      resources.userPoolClientWeb.generateSecret = false
+
 }
