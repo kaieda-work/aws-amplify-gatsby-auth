@@ -4,8 +4,8 @@ export function override(resources: AmplifyAuthCognitoStackTemplate) {
     resources.userPoolClientWeb.accessTokenValidity = 80;
     resources.userPoolClientWeb.idTokenValidity = 80;
     resources.userPoolClientWeb.tokenValidityUnits = {
-        "accessToken": "hours",
-        "idToken":"hours"
+        "accessToken": "minutes",
+        "idToken":"minutes"
     };
 
 }
