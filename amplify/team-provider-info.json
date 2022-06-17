@@ -1,4 +1,22 @@
 {
+  "devg": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-awsamplifygatsbyauth-devg-90534-authRole",
+      "UnauthRoleArn": "arn:aws:iam::319552603562:role/amplify-awsamplifygatsbyauth-devg-90534-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::319552603562:role/amplify-awsamplifygatsbyauth-devg-90534-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-awsamplifygatsbyauth-devg-90534-deployment",
+      "UnauthRoleName": "amplify-awsamplifygatsbyauth-devg-90534-unauthRole",
+      "StackName": "amplify-awsamplifygatsbyauth-devg-90534",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:319552603562:stack/amplify-awsamplifygatsbyauth-devg-90534/d6057120-dc09-11ec-9a63-0ae7cd4af365",
+      "AmplifyAppId": "dsvrrn74rdf5e"
+    },
+    "categories": {
+      "auth": {
+        "awsamplifygatsbyauthtestdeletes": {}
+      }
+    }
+  },
   "devj": {
     "awscloudformation": {
       "AuthRoleName": "amplify-my-aws-project-devj-14628-authRole",
